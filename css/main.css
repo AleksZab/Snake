@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+
+body {
+    margin: 0px;
+    color: white;
+    background-color: gray;
+    background-image: url(../);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#hoved-wrapper {
+    max-width: 800px;
+    margin: auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-areas:
+        "o o o o o o o o o o "
+
+}
+
+#overskrift {
+    grid-area: o;
+    background-image: url(../img/snake\ overskrift.jpg);
+    max-width: 1500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: green;
+    height: 100px;
+}
